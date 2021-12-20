@@ -1,0 +1,41 @@
+/* css-variables-pro/button-variations/variations.css */
+
+* {
+    border: 0;
+   }
+   :root {
+    --primary: #0076c6;
+    --secondary: #333333;
+    --error: #fc8282;
+    --success: #009070;
+    --white: #ffffff;
+   }
+   /* base style for all buttons */
+   .btn {
+    padding: 1rem 1.5rem;
+    background: transparent;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    outline: none;
+   }
+   /* variations */
+   .primary {
+    background: var(--primary);
+    color: var(--white);
+   }
+   .secondary {
+    background: var(--secondary);
+    color: var(--white);
+   }
+   .success {
+    background: var(--success);
+    color: var(--white);
+   }
+   .error {
+    background: var(--error);
+    color: var(--white);
+   }
+   .link {
+    color: var(--primary);
+   }
